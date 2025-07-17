@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Break Neck Pizza Delivery</title>
+<script type="text/javascript" src="pizza.js"></script>
+</head>
+<body onLoad="document.forms[0].reset();">
+	<div id="main-page">
+		<p><img src="breakneck-logo_new.gif" /></p>
+		<form id="order-form" action="">
+			<p>Enter your phone number:
+				<input type="text" name="phone" id="phone" onChange="getCustomerInfo();" />
+			</p>
+			<p>Type your order in here:</p>
+			<p><textarea name="order" id="order" rows="6" cols="50"></textarea></p>
+			<p>Your order will be delivered to:</p>
+			<p><textarea name="address" id="address" rows="4" cols="50"></textarea></p>
+			<p><input type="button" value="Order Pizza" onclick="submitOrder()"; /></p>
+		</form>
+	</div>
+</body>
+</html>

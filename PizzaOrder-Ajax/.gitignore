@@ -1,0 +1,35 @@
+# Eclipse 관련 설정 파일
+.metadata/
+.classpath
+.project
+.settings/
+
+# Java 빌드 결과물
+bin/
+build/
+
+# OS별 불필요한 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.swp
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IDEA (혹시 같이 열면)
+*.iml
+.idea/
+
+# 기타
+*.jar
+*.war
